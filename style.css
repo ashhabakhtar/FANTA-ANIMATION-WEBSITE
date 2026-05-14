@@ -73,7 +73,6 @@ nav i{
     position: absolute;
     width: 40%;
     z-index: 2;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 }
 
 #orange-cut{
@@ -82,7 +81,6 @@ nav i{
     left: 32%;
     width: 15%;
     z-index: 1;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 
 }
 
@@ -92,7 +90,6 @@ nav i{
     z-index: 3;
     top: 55%;
     right: 30%;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 
 }
 
@@ -102,7 +99,6 @@ nav i{
     transform: rotate(60deg);
     position: absolute;
     width: 18%;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 
 }
 
@@ -112,7 +108,6 @@ nav i{
     transform: rotate(-90deg);
     position: absolute;
     width: 12%;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 
 }
 
@@ -215,7 +210,6 @@ nav i{
     width: 60%;
     left: 50%;
     transform: translate(-50%, 0%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 
 }
 
@@ -225,7 +219,6 @@ nav i{
     width: 85%;
     left: 50%;
     transform: translate(-50%, 0%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 
 }
 
@@ -235,7 +228,6 @@ nav i{
     left: 50%;
     width: 25vw;
     transform: translate(-50%, 0%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 }
 
 .lemon1{
@@ -267,3 +259,48 @@ nav i{
     transform-origin: bottom left;
 }
 
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    width: 100%;
+    padding: 10vh 0;
+    background: linear-gradient(150deg, rgb(30, 30, 30), rgb(0, 0, 0));
+    color: #fff;
+    z-index: 10;
+    position: relative;
+}
+
+.contact-section h2 {
+    font-size: 3vw;
+    font-family: Product Sans B;
+    color: rgb(255, 149, 0);
+}
+
+.contact-links {
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    font-size: 1.2vw;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+    color: rgb(255, 149, 0);
+}
+
+.contact-links i {
+    font-size: 1.5vw;
+}
